@@ -18,9 +18,9 @@ while (chute != numeroSecreto) {
         alert('Isso aí, você acertou o número secreto: '+numeroSecreto)
     }   else {
         if (chute < numeroSecreto) {
-            alert('O número secreto é maior do que ' +chute);
+            alert('O número secreto é maior do que: ' +chute);
         } else {
-            alert('O número secreto e menor do que ' +chute);
+            alert('O número secreto é menor do que: ' +chute);
         }
     };
         
