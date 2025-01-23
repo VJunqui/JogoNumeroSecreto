@@ -13,7 +13,7 @@ console.log('Resultado da comparação:', chute == numeroSecreto);
 
 // Enquanto o chute não for igual
 while (chute != numeroSecreto) {
-    chute = prompt('Escolha um número entre 1 e 30');
+    chute = prompt('Escolha um número entre 1 e 20');
     if (chute == numeroSecreto) {
         alert('Isso aí, você acertou o número secreto: '+numeroSecreto)
     }   else {
